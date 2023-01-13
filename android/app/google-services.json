@@ -1,39 +1,39 @@
 {
-  "projectinfo": {
-    "projectnumber": "1012537180015",
-    "projectid": "didiwatched",
-    "storagebucket": "didiwatched.appspot.com"
+  "project_info": {
+    "project_number": "1012537180015",
+    "project_id": "didiwatched",
+    "storage_bucket": "didiwatched.appspot.com"
   },
   "client": [
     {
-      "clientinfo": {
-        "mobilesdkappid": "1:1012537180015:android:6df775269ce4d57d38729a",
-        "androidclientinfo": {
-          "packagename": "com.example.DIW"
+      "client_info": {
+        "mobilesdk_app_id": "1:1012537180015:android:6df775269ce4d57d38729a",
+        "android_client_info": {
+          "package_name": "com.example.DIW"
         }
       },
-      "oauthclient": [
+      "oauth_client": [
         {
-          "clientid": "1012537180015-5ji1pfdil51p7en60lgscad1m8e1bs0p.apps.googleusercontent.com",
-          "clienttype": 3
+          "client_id": "1012537180015-5ji1pfdil51p7en60lgscad1m8e1bs0p.apps.googleusercontent.com",
+          "client_type": 3
         }
       ],
-      "apikey": [
+      "api_key": [
         {
-          "currentkey": "AIzaSyDXPvwULdqtHQ97zTkVJfLeYJNcx8ldh4"
+          "current_key": "AIzaSyDXPvwULdqtHQ97zTkVJfLeYJNcx_8ldh4"
         }
       ],
       "services": {
-        "appinviteservice": {
-          "otherplatformoauthclient": [
+        "appinvite_service": {
+          "other_platform_oauth_client": [
             {
-              "clientid": "1012537180015-5ji1pfdil51p7en60lgscad1m8e1bs0p.apps.googleusercontent.com",
-              "clienttype": 3
+              "client_id": "1012537180015-5ji1pfdil51p7en60lgscad1m8e1bs0p.apps.googleusercontent.com",
+              "client_type": 3
             }
           ]
         }
       }
     }
   ],
-  "configurationversion": "1"
+  "configuration_version": "1"
 }
