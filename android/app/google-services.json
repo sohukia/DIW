@@ -1,0 +1,39 @@
+{
+  "projectinfo": {
+    "projectnumber": "1012537180015",
+    "projectid": "didiwatched",
+    "storagebucket": "didiwatched.appspot.com"
+  },
+  "client": [
+    {
+      "clientinfo": {
+        "mobilesdkappid": "1:1012537180015:android:6df775269ce4d57d38729a",
+        "androidclientinfo": {
+          "packagename": "com.example.DIW"
+        }
+      },
+      "oauthclient": [
+        {
+          "clientid": "1012537180015-5ji1pfdil51p7en60lgscad1m8e1bs0p.apps.googleusercontent.com",
+          "clienttype": 3
+        }
+      ],
+      "apikey": [
+        {
+          "currentkey": "AIzaSyDXPvwULdqtHQ97zTkVJfLeYJNcx8ldh4"
+        }
+      ],
+      "services": {
+        "appinviteservice": {
+          "otherplatformoauthclient": [
+            {
+              "clientid": "1012537180015-5ji1pfdil51p7en60lgscad1m8e1bs0p.apps.googleusercontent.com",
+              "clienttype": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configurationversion": "1"
+}
