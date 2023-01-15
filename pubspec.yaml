@@ -31,8 +31,16 @@ flutter_icons:
   min_sdk_android: 21
 
 flutter_native_splash:
-  background_image: "assets/logo/background.png"
+  color: "#5593ff"
+  color_dark: "#5593ff"
+  image: assets/logo/DIWLogo.png
+  image_dark: assets/logo/DIWLogo.png
 
+  android12:
+    color: "#5593ff"
+    icon_background_color: assets/logo/DIWLogo.png
+    image_dark: assets/logo/DIWLogo.png
+    icon_background_color_dark: "#5593ff"
 
 flutter:
   uses-material-design: true
