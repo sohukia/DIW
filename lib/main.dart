@@ -1,3 +1,4 @@
+import 'package:diw/src/utils/theme/theme.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import './firebase_options.dart';
@@ -16,11 +17,32 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Did I Watched',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
+      theme: DIWAppTheme.lightTheme,
+      darkTheme: DIWAppTheme.darkTheme,
+      themeMode: ThemeMode.light,
+      home: const AppHome(),
+    );
+  }
+}
+
+class AppHome extends StatelessWidget {
+  const AppHome({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Did I Watched"),
+        leading: const Padding(
+          padding: EdgeInsets.all(8.0),
+          child: CircleAvatar(
+            backgroundImage: AssetImage("assets/logo/DIWLogo.png"),
+          ),
+        ),
       ),
-      home: const Scaffold(),
+      body: const Center(
+        child: Text("Home"),
+      ),
     );
   }
 }
